@@ -4,7 +4,7 @@
 
 #Excludes
 
-SCRIPTDIR=$(dirname $0)
+SCRIPTDIR=$(cd "$(dirname "$0")"; pwd)
 INSTALLDIR=$HOME
 BACKUP=.dotfiles.old
 
