@@ -7,3 +7,5 @@ sftp://michael@192.168.1.2/home/michael michael@gc-server
 sftp://staff@192.168.1.2/srv/data
 sftp://staff@corp.mygenerationchurch.org/srv/data staff@corp.mygenerationchurch.org
 sftp://generationchurch@tashkent.dreamhost.com/home/generationchurch
+
+file:/home/michael/Ubuntu%20One Ubuntu One
