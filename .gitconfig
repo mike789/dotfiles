@@ -1,0 +1,10 @@
+[color]
+	ui = auto
+[user]
+[credential]
+	helper = cache
+[user]
+	email = mike789@gmail.com
+	name = Michael Benvenuti
+[push]
+	default = simple

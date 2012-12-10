@@ -1,0 +1,9 @@
+file:///home/michael/Documents
+file:///home/michael/Music
+file:///home/michael/Pictures
+file:///home/michael/Videos
+file:///home/michael/Downloads
+sftp://michael@192.168.1.2/home/michael michael@gc-server
+sftp://staff@192.168.1.2/srv/data
+sftp://staff@corp.mygenerationchurch.org/srv/data staff@corp.mygenerationchurch.org
+sftp://generationchurch@tashkent.dreamhost.com/home/generationchurch
