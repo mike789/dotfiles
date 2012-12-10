@@ -13,6 +13,13 @@ do
    if [ ! -d $FILE ]
    then
       FILENAME=$(basename $FILE);
+      SUFFIX=${FILE/*./};
+      echo "$FILENAME $SUFFIX";
+      if [ $SUFFIX == "gpg" ];
+      then
+          gpg -o $INSTALLDIR/$(basename $FILE .gpg) $FILE;
+      fi
+      continue
       if [ -f $INSTALLDIR/$FILENAME ];
       then
          if [ -h $INSTALLDIR/$FILENAME ] && [ $(readlink $INSTALLDIR/$FILENAME) == $SCRIPTDIR/$FILENAME ]
@@ -33,4 +40,4 @@ do
 done
 
 source $HOME/.bashrc
-exec bash
+#exec bash
