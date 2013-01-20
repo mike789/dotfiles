@@ -13,7 +13,13 @@ do
    if [ ! -d $FILE ]
    then
       FILENAME=$(basename $FILE);
-      if [ -f $INSTALLDIR/$FILENAME ];
+      SUFFIX=${FILE/*./};
+      
+      if [ $SUFFIX == "gpg" ];
+      then
+         gpg -o $INSTALLDIR/$(basename $FILE .gpg) $FILE;
+
+      elif [ -f $INSTALLDIR/$FILENAME ];
       then
          if [ -h $INSTALLDIR/$FILENAME ] && [ $(readlink $INSTALLDIR/$FILENAME) == $SCRIPTDIR/$FILENAME ]
          then
