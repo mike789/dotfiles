@@ -7,4 +7,4 @@
 	email = mike789@gmail.com
 	name = Michael Benvenuti
 [push]
-	default = simple
+	default = upstream
