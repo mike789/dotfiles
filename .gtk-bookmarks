@@ -3,9 +3,9 @@ file:///home/michael/Music
 file:///home/michael/Pictures
 file:///home/michael/Videos
 file:///home/michael/Downloads
-sftp://michael@192.168.1.2/home/michael michael@gc-server
-sftp://staff@192.168.1.2/srv/data
-sftp://staff@corp.mygenerationchurch.org/srv/data staff@corp.mygenerationchurch.org
-sftp://generationchurch@tashkent.dreamhost.com/home/generationchurch
-
-file:/home/michael/Ubuntu%20One Ubuntu One
+sftp://michael@192.168.1.2/home/michael michael@192.168.1.2
+sftp://staff@192.168.1.2/srv/data staff@192.168.1.2
+sftp://Michael@corp.generationchurch.com/home/michael michael@corp.generationchurch.com
+sftp://staff@corp.generationchurch.com/srv/data staff@corp.generationchurch.com
+sftp://generationchurch@ssh.generationchurch.com/home/generationchurch generationchurch@ssh.generationchurch.com
+file:///home/michael/Ubuntu%20One Ubuntu One
